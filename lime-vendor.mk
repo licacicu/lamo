@@ -53,6 +53,30 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lime/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/xiaomi/lime/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/lime/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/focaltech_ts_fw_TRULY.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_TRULY.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672a_tianma_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_tianma_novatek_ts_fw.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672a_tianma_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_tianma_novatek_ts_mp.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672a_truly_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_truly_novatek_ts_fw.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672a_truly_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_truly_novatek_ts_mp.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672d_tianma_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_tianma_novatek_ts_fw.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672d_tianma_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_tianma_novatek_ts_mp.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672d_xinli_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_xinli_novatek_ts_fw.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/nt33672d_xinli_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_xinli_novatek_ts_mp.bin \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/scuba_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b00 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/scuba_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b01 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/scuba_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b02 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/scuba_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b03 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/scuba_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b04 \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/scuba_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.elf \
+    vendor/xiaomi/lime/proprietary/vendor/firmware/scuba_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.mdt \
     vendor/xiaomi/lime/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/xiaomi/lime/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/xiaomi/lime/proprietary/vendor/lib/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3.so \
@@ -62,6 +86,41 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lime/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
     vendor/xiaomi/lime/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
     vendor/xiaomi/lime/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_adsp_loader.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_apr.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_aw87359_audio.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_aw87359_audio.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_aw87519_audio.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_aw87519_audio.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_bolero_cdc.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_machine_bengal.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_machine_bengal.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_mbhc.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_native.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_pinctrl_lpi.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_platform.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_pm2250_spmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_pm2250_spmi.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_notifier.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_pdr.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_rouleur.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rouleur.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_rouleur_slave.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rouleur_slave.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rx_macro.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_snd_event.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_stub.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr_ctrl.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_tx_macro.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_usf.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_va_macro.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_wcd937x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_wcd937x_slave.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x_slave.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd9xxx.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd_core.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/exfat.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/exfat.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.load \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.softdep \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
+    vendor/xiaomi/lime/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
     vendor/xiaomi/lime/proprietary/vendor/lib64/camera/com.qti.eeprom.lime_ofilm_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lime_ofilm_ov8856_front_eeprom.so \
     vendor/xiaomi/lime/proprietary/vendor/lib64/camera/com.qti.eeprom.lime_sunny_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lime_sunny_ov8856_front_eeprom.so \
     vendor/xiaomi/lime/proprietary/vendor/lib64/camera/com.qti.sensor.lime_aac_gc02m1_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_aac_gc02m1_macro.so \
